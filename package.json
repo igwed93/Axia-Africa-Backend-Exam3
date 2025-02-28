@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "An API that allows users to register an account, log in, manage their posts (create, update, and delete), and manage their account (update or delete). The API also includes KYC (Know Your Customer) attributes for identity verification. ",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
